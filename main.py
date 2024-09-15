@@ -1,2 +1,12 @@
+# To work with open cv need to import it.
 import cv2
-print("OpenCV version:", cv2.__version__)
+
+# will start off with the basics, loading an image.
+image = cv2.imread('C:\Users\Silas\Desktop')
+
+# checking if image was loaded successfully.
+
+if image is None:
+    print("Error: Image not tholakaling!")
+else:
+    print("Image was loaded successfully !")
